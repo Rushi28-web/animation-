@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Animation Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CSS Animation Showcase</h1>
+        <div class="grid">
+            <!-- Spinner Card -->
+            <div class="card" data-animation="spinner">
+                <div class="demo-box">
+                    <div class="spinner"></div>
+                </div>
+                <h3>Loading Spinner</h3>
+                <p>A simple rotating loading spinner animation.</p>
+            </div>
+
+            <!-- Pulse Card -->
+            <div class="card" data-animation="pulse">
+                <div class="demo-box">
+                    <div class="pulse"></div>
+                </div>
+                <h3>Pulse Effect</h3>
+                <p>A smooth pulsing animation effect.</p>
+            </div>
+
+            <!-- Fade Card -->
+            <div class="card" data-animation="fade">
+                <div class="demo-box">
+                    <div class="fade"></div>
+                </div>
+                <h3>Fade Animation</h3>
+                <p>A fade in and out animation effect.</p>
+            </div>
+
+            <!-- Bounce Card -->
+            <div class="card" data-animation="bounce">
+                <div class="demo-box">
+                    <div class="bounce"></div>
+                </div>
+                <h3>Bounce Effect</h3>
+                <p>A simple bouncing animation.</p>
+            </div>
+
+            <!-- Wave Card -->
+            <div class="card" data-animation="wave">
+                <div class="demo-box">
+                    <div class="wave">
+                        <div class="wave-bar"></div>
+                        <div class="wave-bar"></div>
+                        <div class="wave-bar"></div>
+                        <div class="wave-bar"></div>
+                        <div class="wave-bar"></div>
+                    </div>
+                </div>
+                <h3>Wave Animation</h3>
+                <p>An audio wave-like animation effect.</p>
+            </div>
+            <!--slide-->
+            <div class="card" data-animation="slide_in">
+                <div class="demo-box">
+                    <div class="slide-in"></div>
+                </div>
+                <h3>Slide In</h3>
+                <p>Slides in from the left.</p>
+            </div>
+            <!--scale-->
+            <div class="card" data-animation="scale">
+                <div class="demo-box">
+                    <div class="scale"></div>
+                </div>
+                <h3>Scale Up/Down</h3>
+                <p>Scales up and down.</p>
+            </div>
+            <!--rotate-->
+            <div class="card" data-animation="rotate_fade">
+                <div class="demo-box">
+                    <div class="rotate-fade"></div>
+                </div>
+                <h3>Rotate and Fade</h3>
+                <p>Rotates and fades in/out.</p>
+            </div>
+            <!--colour change-->
+            <div class="card" data-animation="color_change">
+                <div class="demo-box">
+                    <div class="color-change"></div>
+                </div>
+                <h3>Color Change</h3>
+                <p>Changes color smoothly.</p>
+            </div>
+
+            <!-- 3D Flip Card -->
+            <div class="card" data-animation="flip">
+                <div class="demo-box">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">Front</div>
+                            <div class="flip-card-back">Back</div>
+                        </div>
+                    </div>
+                </div>
+                <h3>3D Flip Animation</h3>
+                <p>A smooth 3D card flip animation.</p>
+            </div>
+
+            <!-- Typewriter -->
+            <div class="card" data-animation="typewriter">
+                <div class="demo-box">
+                    <div class="typewriter">
+                        <div class="typewriter-text">Hello World!</div>
+                    </div>
+                </div>
+                <h3>Typewriter Effect</h3>
+                <p>Classic typewriter text animation.</p>
+            </div>
+
+            <!-- Floating -->
+            <div class="card" data-animation="floating">
+                <div class="demo-box">
+                    <div class="floating"></div>
+                </div>
+                <h3>Floating Animation</h3>
+                <p>Smooth floating movement effect.</p>
+            </div>
+
+            <!-- Shake -->
+            <div class="card" data-animation="shake">
+                <div class="demo-box">
+                    <div class="shake"></div>
+                </div>
+                <h3>Shake Effect</h3>
+                <p>Vigorous shaking animation.</p>
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="card" data-animation="progress">
+                <div class="demo-box">
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                </div>
+                <h3>Progress Bar</h3>
+                <p>Animated loading progress bar.</p>
+            </div>
+
+            <!-- Heartbeat -->
+            <div class="card" data-animation="heartbeat">
+                <div class="demo-box">
+                    <div class="heartbeat"></div>
+                </div>
+                <h3>Heartbeat Animation</h3>
+                <p>Pulsating heart animation.</p>
+            </div>
+            <div class="card" data-animation="glowing-ring">
+                <div class="demo-box">
+                    <div class="glowing-ring"></div>
+                </div>
+                <h3>Glowing Ring</h3>
+                <p>Pulsating ring with glow effect.</p>
+            </div>
+
+            <!-- Rainbow Text -->
+            <div class="card" data-animation="rainbow-text">
+                <div class="demo-box">
+                    <div class="rainbow-text">Rainbow</div>
+                </div>
+                <h3>Rainbow Text</h3>
+                <p>Animated rainbow gradient text effect.</p>
+            </div>
+
+            <!-- Pendulum -->
+            <div class="card" data-animation="pendulum">
+                <div class="demo-box">
+                    <div class="pendulum-container">
+                        <div class="pendulum"></div>
+                    </div>
+                </div>
+                <h3>Pendulum</h3>
+                <p>Swinging pendulum animation.</p>
+            </div>
+
+            <!-- Circular Loader -->
+            <div class="card" data-animation="circle-loader">
+                <div class="demo-box">
+                    <div class="circle-loader"></div>
+                </div>
+                <h3>Circular Loader</h3>
+                <p>Dual-color circular loading animation.</p>
+            </div>
+
+            <!-- DNA Helix -->
+            <div class="card" data-animation="dna">
+                <div class="demo-box">
+                    <div class="dna-container">
+                        <div class="dna-strand" style="transform: rotateX(0deg)"></div>
+                        <div class="dna-strand" style="transform: rotateX(30deg)"></div>
+                        <div class="dna-strand" style="transform: rotateX(60deg)"></div>
+                        <div class="dna-strand" style="transform: rotateX(90deg)"></div>
+                        <div class="dna-strand" style="transform: rotateX(120deg)"></div>
+                        <div class="dna-strand" style="transform: rotateX(150deg)"></div>
+                    </div>
+                </div>
+                <h3>DNA Helix</h3>
+                <p>Rotating DNA double helix animation.</p>
+            </div>
+
+            <!-- Bouncing Dots -->
+            <div class="card" data-animation="bouncing-dots">
+                <div class="demo-box">
+                    <div class="bouncing-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <h3>Bouncing Dots</h3>
+                <p>Sequential bouncing dots animation.</p>
+            </div>
+                <!-- Magnetic Button -->
+<div class="card" data-animation="magnetic_button">
+    <div class="demo-box">
+        <button class="magnetic-button">Hover Me</button>
+    </div>
+    <h3>Magnetic Button</h3>
+    <p>Interactive magnetic pull effect on hover.</p>
+</div>
+
+<!-- Liquid Fill -->
+<div class="card" data-animation="liquid_fill">
+    <div class="demo-box">
+        <div class="liquid-fill"></div>
+    </div>
+    <h3>Liquid Fill</h3>
+    <p>Smooth liquid filling animation effect.</p>
+</div>
+
+<!-- Neon Text -->
+<div class="card" data-animation="neon_text">
+    <div class="demo-box">
+        <div class="neon-text">Glow</div>
+    </div>
+    <h3>Neon Text</h3>
+    <p>Glowing neon text effect with pulsing.</p>
+</div>
+<!-- 3D Card Flip -->
+<div class="card" data-animation="card_3d">
+    <div class="demo-box">
+        <div class="card-3d">
+            <div class="card-front">Front</div>
+            <div class="card-back">Back</div>
+        </div>
+    </div>
+    <h3>3D Card Flip</h3>
+    <p>Smooth 3D card flip animation on hover.</p>
+</div>
+
+<!-- Morphing Shape -->
+<div class="card" data-animation="morphing_shape">
+    <div class="demo-box">
+        <div class="morph"></div>
+    </div>
+    <h3>Morphing Shape</h3>
+    <p>Continuously morphing blob animation.</p>
+</div>
+
+<!-- Typing Cursor -->
+<div class="card" data-animation="typing_cursor">
+    <div class="demo-box">
+        <div class="typing-cursor">Type</div>
+    </div>
+    <h3>Typing Cursor</h3>
+    <p>Animated typing cursor effect.</p>
+</div>
+
+<!-- Equalizer -->
+<div class="card" data-animation="equalizer">
+    <div class="demo-box">
+        <div class="equalizer">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </div>
+    <h3>Equalizer Bars</h3>
+    <p>Audio equalizer-style animated bars.</p>
+</div>
+
+<!-- Ripple Effect -->
+<div class="card" data-animation="ripple">
+    <div class="demo-box">
+        <div class="ripple"></div>
+    </div>
+    <h3>Ripple Effect</h3>
+    <p>Expanding circles ripple animation.</p>
+</div>
+
+<!-- Shimmering Text -->
+<div class="card" data-animation="shimmer">
+    <div class="demo-box">
+        <div class="shimmer">Shimmer</div>
+    </div>
+    <h3>Shimmering Text</h3>
+    <p>Text with shimmering gradient effect.</p>
+</div>
+
+<!-- Radar Scanner -->
+<div class="card" data-animation="radar">
+    <div class="demo-box">
+        <div class="radar"></div>
+    </div>
+    <h3>Radar Scanner</h3>
+    <p>Rotating radar scanner animation.</p>
+</div>
+    <!-- Modal -->
+    <div class="modal">
+        <div class="modal-content">
+            <h2>Animation Code</h2>
+            <pre><code></code></pre>
+            <button class="copy-btn">Copy Code</button>
+        </div>
+    </div>
+    <!-- Floating Islands Card -->
+<div class="card" data-animation="floating_islands">
+    <div class="demo-box">
+        <div class="floating-islands">
+            <div class="island"></div>
+            <div class="island"></div>
+            <div class="island"></div>
+        </div>
+    </div>
+    <h3>Floating Islands</h3>
+    <p>Layered floating effect with perspective.</p>
+</div>
+
+<!-- Geometric Morph Card -->
+<div class="card" data-animation="geo_morph">
+    <div class="demo-box">
+        <div class="geo-morph"></div>
+    </div>
+    <h3>Geometric Morph</h3>
+    <p>Smooth shape-shifting geometric animation.</p>
+</div>
+
+<!-- Split Text Card -->
+<div class="card" data-animation="split_text">
+    <div class="demo-box">
+        <div class="split-text" data-text="SPLIT">SPLIT</div>
+    </div>
+    <h3>Split Text</h3>
+    <p>Text splitting effect with dynamic movement.</p>
+</div>
+
+<!-- Portal Effect Card -->
+<div class="card" data-animation="portal">
+    <div class="demo-box">
+        <div class="portal"></div>
+    </div>
+    <h3>Portal Effect</h3>
+    <p>Hypnotic portal animation with gradient rotation.</p>
+</div>
+
+<!-- Energy Ball Card -->
+<div class="card" data-animation="energy_ball">
+    <div class="demo-box">
+        <div class="energy-ball"></div>
+    </div>
+    <h3>Energy Ball</h3>
+    <p>Pulsating energy sphere with radiating waves.</p>
+</div>
+
+<!-- Glitch Text Card -->
+<div class="card" data-animation="glitch">
+    <div class="demo-box">
+        <div class="glitch-text" data-text="GLITCH">GLITCH</div>
+    </div>
+    <h3>Glitch Effect</h3>
+    <p>Digital glitch text effect with color separation.</p>
+</div>
+
+<!-- Spiral Loader Card -->
+<div class="card" data-animation="spiral">
+    <div class="demo-box">
+        <div class="spiral-loader">
+            <div class="spiral"></div>
+            <div class="spiral"></div>
+            <div class="spiral"></div>
+            <div class="spiral"></div>
+        </div>
+    </div>
+    <h3>Spiral Loader</h3>
+    <p>Multi-layered spiral loading animation.</p>
+</div>
+
+<!-- Crystal Growth Card -->
+<div class="card" data-animation="crystal">
+    <div class="demo-box">
+        <div class="crystal"></div>
+    </div>
+    <h3>Crystal Growth</h3>
+    <p>Geometric crystal growth animation.</p>
+</div>
+
+<!-- Liquid Button Card -->
+<div class="card" data-animation="liquid_button">
+    <div class="demo-box">
+        <button class="liquid-button">Hover Me</button>
+    </div>
+    <h3>Liquid Button</h3>
+    <p>Button with liquid light effect animation.</p>
+</div>
+
+<!-- Matrix Rain Card -->
+<div class="card" data-animation="matrix">
+    <div class="demo-box">
+        <div class="matrix-container">
+            <div class="matrix-column">
+                <span>1</span><span>0</span><span>1</span>
+            </div>
+            <div class="matrix-column">
+                <span>0</span><span>1</span><span>0</span>
+            </div>
+            <div class="matrix-column">
+                <span>1</span><span>0</span><span>1</span>
+            </div>
+            <div class="matrix-column">
+                <span>0</span><span>1</span><span>0</span>
+            </div>
+        </div>
+    </div>
+    <h3>Matrix Rain</h3>
+    <p>Digital rain effect with cascading numbers.</p>
+</div>
+<!-- Lightning Strike -->
+<div class="card" data-animation="lightning">
+    <div class="demo-box">
+        <div class="lightning"></div>
+    </div>
+    <h3>Lightning Strike</h3>
+    <p>Dynamic lightning bolt effect with realistic flickering.</p>
+</div>
+
+<!-- Black Hole -->
+<div class="card" data-animation="black_hole">
+    <div class="demo-box">
+        <div class="black-hole"></div>
+    </div>
+    <h3>Black Hole Effect</h3>
+    <p>Gravitational distortion simulation with orbiting particles.</p>
+</div>
+
+<!-- DNA Double Helix -->
+<div class="card" data-animation="dna_helix">
+    <div class="demo-box">
+        <div class="dna-helix">
+            <div class="strand-1">
+                <div class="base" style="top: 20%"></div>
+                <div class="base" style="top: 40%"></div>
+                <div class="base" style="top: 60%"></div>
+                <div class="base" style="top: 80%"></div>
+            </div>
+            <div class="strand-2">
+                <div class="base" style="top: 30%"></div>
+                <div class="base" style="top: 50%"></div>
+                <div class="base" style="top: 70%"></div>
+                <div class="base" style="top: 90%"></div>
+            </div>
+        </div>
+    </div>
+    <h3>DNA Double Helix</h3>
+    <p>Rotating 3D DNA strand with connected base pairs.</p>
+</div>
+
+<!-- Fireworks -->
+<div class="card" data-animation="firework">
+    <div class="demo-box">
+        <div class="firework">
+            <div class="spark"></div>
+            <div class="spark"></div>
+            <div class="spark"></div>
+            <div class="spark"></div>
+            <div class="spark"></div>
+        </div>
+    </div>
+    <h3>Fireworks Effect</h3>
+    <p>Launching firework with exploding particle effects.</p>
+</div>
+
+<!-- Quantum Particle -->
+<div class="card" data-animation="quantum_particle">
+    <div class="demo-box">
+        <div class="quantum-particle">
+            <div class="probability-cloud"></div>
+            <div class="probability-cloud"></div>
+            <div class="probability-cloud"></div>
+        </div>
+    </div>
+    <h3>Quantum Particle</h3>
+    <p>Quantum particle with probability cloud visualization.</p>
+</div>
+
+<!-- Weather System -->
+<div class="card" data-animation="weather_system">
+    <div class="demo-box">
+        <div class="weather-system">
+            <div class="cloud"></div>
+            <div class="rain" style="left: 30%"></div>
+            <div class="rain" style="left: 50%"></div>
+            <div class="rain" style="left: 70%"></div>
+        </div>
+    </div>
+    <h3>Weather System</h3>
+    <p>Animated cloud formation with falling rain.</p>
+</div>
+
+<!-- Cellular Automaton -->
+<div class="card" data-animation="cellular_automation">
+    <div class="demo-box">
+        <div class="cell-grid">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+    </div>
+    <h3>Cellular Automaton</h3>
+    <p>Grid of cells with evolving state transitions.</p>
+</div>
+
+<!-- Magnetic Field -->
+<div class="card" data-animation="magnetic_field">
+    <div class="demo-box">
+        <div class="magnetic-field">
+            <div class="field-line" style="top: 20%"></div>
+            <div class="field-line" style="top: 40%"></div>
+            <div class="field-line" style="top: 60%"></div>
+            <div class="field-line" style="top: 80%"></div>
+        </div>
+    </div>
+    <h3>Magnetic Field</h3>
+    <p>Flowing magnetic field lines with gradient effects.</p>
+</div>
+
+<!-- Supernova -->
+<div class="card" data-animation="supernova">
+    <div class="demo-box">
+        <div class="supernova">
+            <div class="shockwave"></div>
+            <div class="shockwave"></div>
+            <div class="shockwave"></div>
+        </div>
+    </div>
+    <h3>Supernova Explosion</h3>
+    <p>Stellar explosion with expanding shockwave.</p>
+</div>
+
+<!-- Time Dilation -->
+<div class="card" data-animation="time_dilation">
+    <div class="demo-box">
+        <div class="time-warp">
+            <div class="time-marker"></div>
+        </div>
+    </div>
+    <h3>Time Dilation</h3>
+    <p>Relativistic time warping visualization effect.</p>
+</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
